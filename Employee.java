@@ -29,7 +29,6 @@ public class Employee implements Pembayaran {
         }
         for (Invoice invoice : invoices) {
             totalInvoice += invoice.getPayableAmount();
-            productInvoice += invoice.toString();
         }
         return "Employee Name: " + name + "\n" +
                 "Registration Number: " + registrationNumber + "\n" +
