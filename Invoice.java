@@ -15,10 +15,6 @@ public class Invoice implements Pembayaran {
         return quantity * pricePerItem;
     }
 
-    public double getPrice() {
-        return quantity * pricePerItem;
-    }
-
     public String toString() {
         return "\n\nProduct: " + productName + "\nQuantity: " + quantity + "\nPrice per Item: $" + pricePerItem;
     }
