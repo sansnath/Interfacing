@@ -32,8 +32,8 @@ public class Employee implements Pembayaran {
         }
         return "Employee Name: " + name + "\n" +
                 "Registration Number: " + registrationNumber + "\n" +
-                "Salary Per Month: $" + salaryPerMonth + "\n" +
+                "Salary Per Month: Rp" + salaryPerMonth + "\n" +
                 "\nInvoices:" + productInvoice + "\n\nTotal Invoice Price: " + totalInvoice +
-                "\nTotal Salary After Deduction: $" + getPayableAmount() + "\n";
+                "\nTotal Salary After Deduction: Rp" + getPayableAmount() + "\n";
     }
 }
